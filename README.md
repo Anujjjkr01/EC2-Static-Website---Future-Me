@@ -36,12 +36,12 @@ project/
 │── README.md
 
 ---
-Deployemnt Steps-
+# Deployemnt Steps-
 - Launch EC2 instance  
 - Connect via SSH  
 - Install Apache2  
 - Upload website files  
 - Access via public IP  
 
-## ⚙️ Deployment Steps (AWS EC2 + Apache2)
+
 
