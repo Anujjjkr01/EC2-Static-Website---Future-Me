@@ -36,12 +36,41 @@ project/
 │── README.md
 
 ---
-# Deployemnt Steps-
-- Launch EC2 instance  
-- Connect via SSH  
-- Install Apache2  
-- Upload website files  
-- Access via public IP  
+⚙️ Deployment Steps
+1. Launch EC2 Instance
+Created an EC2 instance using Ubuntu
+Enabled HTTP access (Port 80) for public connectivity
+2. Connect to EC2
+Connected to the server using SSH from a Linux environment
+Used the terminal to configure and manage the instance
+3. Install Apache2
+Updated system packages
+Installed Apache2 web server
+Started and enabled the service
+4. Create Website File
+Navigated to the home directory
+Created index.html and added the complete website code
+5. Deploy Website
+
+Moved the file to the Apache root directory:
+
+/var/www/html
+This allows Apache to serve the website
+6. Restart Apache
+Restarted the Apache service to apply changes
+7. Access Website
+Opened the EC2 public IP in a browser
+Website is now live and accessible globally 🌍
+🧠 Key Learnings
+Difference between localhost vs cloud hosting
+How EC2 acts as a virtual server
+How Apache serves static files
+Importance of public IP & security groups
+🚀 Future Improvements
+Add custom domain (Route 53)
+Enable HTTPS (SSL Certificate)
+Implement CI/CD pipeline
+Enhance UI/UX further 
 
 
 
